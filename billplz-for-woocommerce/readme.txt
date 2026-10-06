@@ -1,17 +1,17 @@
 === Billplz for WooCommerce ===
-Contributors: wanzulnet, yiedpozi
-Tags: billplz
-Tested up to: 6.9
-Stable tag: 3.28.14
+Tags: woocommerce, ecommerce, billplz, payment
+Tested up to: 7.1
+Stable tag: 3.28.15
 Requires at least: 4.6
 License: GPL-3.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Requires PHP: 7.0
 
-Accept payment by using Billplz.
+Billplz payment integration for WooCommerce.
 
 == Description ==
-Install this plugin to accept payment using Billplz.
+
+Billplz payment integration for WooCommerce.
 
 == Upgrade Notice ==
 
@@ -22,6 +22,10 @@ Install this plugin to accept payment using Billplz.
 * Enable X Signature Key at Billplz Account Settings
 
 == Changelog ==
+
+= 3.28.15 - 2026-10-06 =
+* ADDED: DuitNow QR (BP-RHBQR) payment option
+* CHANGED: Bank of China (BOCM01) is now listed under sandbox only
 
 = 3.28.14 - 2026-04-15 =
 * FIXED: Order payment status not updated when a deleted bill later received a successful payment
@@ -147,15 +151,15 @@ The API Key, Collection and X Signature Key can be hidden from WordPress Dashboa
 
 = Where can I get API Secret Key? =
 
-You can the API Secret Key at your Billplz Account Settings.
+You can obtain the API Secret Key from your Billplz Dashboard >> Settings.
 
 = Where can I get Collection ID? =
 
-You can the Collection ID at your Billplz >> Billing.
+You can obtain the Collection ID from your Billplz Dashboard >> Collection.
 
 = Where can I get X Signature Key? =
 
-You can the X Signature Key at your Billplz Account Settings.
+You can obtain the X Signature Key from your Billplz Dashboard >> Settings.
 
 = Troubleshooting =
 
